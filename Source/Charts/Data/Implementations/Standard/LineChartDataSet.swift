@@ -75,6 +75,9 @@ open class LineChartDataSet: LineRadarChartDataSet, ILineChartDataSet
             }
         }
     }
+    
+    open var isDrawLineWithGradientEnabled = false
+    open var gradientPositions: [CGFloat]?
         
     /// The radius of the drawn circles.
     open var circleRadius = CGFloat(8.0)
